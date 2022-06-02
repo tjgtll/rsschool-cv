@@ -1,5 +1,4 @@
 # Nikolai Volodin
-============
 
 ## Contacts:
 * Mail: volotji@gmail.com
@@ -8,13 +7,15 @@
 * City: Belarus / Maladzyechna
 
 ## Education
-* 2021-2025 (expected)
-:   **BSc, Information technology software**; Belarusian State University of Informatics and Radioelectronics (Minsk)
+* 2021-2025 (present)
+:   **BSc, Information technology software**; 
+Belarusian State University of Informatics and Radioelectronics (Minsk)
 * 2017-2021
-:   **Secondary special education, Information technology software**; Molodechno Trade-Economic College of Belcoopsoyuz (Maladzyechna)
+:   **Secondary special education, Information technology software**; 
+Molodechno Trade-Economic College of Belcoopsoyuz (Maladzyechna)
 
 ## Languages:
-* English A2X
+* English A2
 
 ## Skills:
 * HTML, CSS, JS
