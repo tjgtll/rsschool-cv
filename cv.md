@@ -1,8 +1,13 @@
-Nikolai Volodin
+#Nikolai Volodin
 ============
 Belarus / Maladzyechna
 
-Education
+## Contacts:
+* Mail: volotji@gmail.com
+* Telegram: @tsds4
+* GitHub: [Volodin](https://github.com/tjgtll)
+
+## Education
 ---------
 
 2021-2025 (expected)
@@ -10,13 +15,11 @@ Education
 
 2017-2021
 :   **Secondary special education, Information technology software**; Molodechno Trade-Economic College of Belcoopsoyuz (Maladzyechna)
+---------
 
+## Languages:
+* English A2X
 
-* Languages:
-
-     * English A2X
-
-* Skills:
-
-     * HTML, CSS, JS
-     * C#, LINQ, Entity Framework, ASP.NET
+## Skills:
+* HTML, CSS, JS
+* C#, LINQ, Entity Framework, ASP.NET
