@@ -1,11 +1,10 @@
-Johnny Coder
+Nikolai Volodin
 ============
 
--------------------     ----------------------------
-1 MyAddress                        email@example.com
-MyTown 1000                          @twitter_handle
-MyCountry                           1800 my-phone-nr
--------------------     ----------------------------
+-----------------------------------------------
+1 MyAddress                        volotji@gmail.com
+Belarus                                 Maladzyechna      
+-----------------------------------------------
 
 Education
 ---------
