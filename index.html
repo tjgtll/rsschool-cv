@@ -11,7 +11,7 @@
             <div class="container">
                 <div class="header-container">
                     <a class="logo_rs" href="https://rs.school/js/">
-                        <img style="width: 100px" src="./assets/img/rs_school_js.svg" alt="logo">
+                        <img style="width: 100px" src="./assets/img/rs_school_js.svg" alt="logo" class="header-container__logo">
                     </a>
                     <nav>
                         <ul class="nav_ul">
@@ -28,28 +28,94 @@
         </header>
         <main>
             <div class="container">
-                <h1>Nikolai Volodin</h1>
-                <h2>Contacts:</h2>
-                <ul>
-                    <li>Mail: volotji@gmail.com</li>
-                    <li>Telegram: @tsds4</li>
-                    <li>Github: [Volodin](https://github.com/tjgtll)</li>
-                    <li>City: Belarus / Maladzyechna</li>
-                </ul>
-                <h2>Languages:</h2>
-                <ul>
-                    <li>English A2</li>
-                </ul>
-                <h2>Skills:</h2>
-                <ul>
-                    <li>HTML, CSS, JS</li>
-                    <li>C#, LINQ, Eninty Framework, ASP.NET</li>
-                </ul>
-                <h2>Education:</h2>
-                <ul>
-                    <li>2021-2025 (present)<br>BSc, Information technology software; Belarusian State University of Informatics and Radioelectronics (Minsk)</li>
-                    <li>2017-2021<br>Secondary special education, Information technology software; Molodechno Trade-Economic College of Belcoopsoyuz (Maladzyechna)</li>
-                </ul> 
+                <section class="first">
+                    <div class="ava"><img class="main-container__img" src="./assets/img/icon.png" alt="my_avatar">
+                    </div>
+                    <div class="main_info">
+                        <h1>Nikolai Volodin</h1>
+                        <h2>Junior developer</h2>
+                    </div>
+                </section>
+                <section class="second">
+                    <div class="cv_element">
+                        <h2>About me</h2>
+                        <div class="cv_element_content">                    
+                                <p>I love dark beer and summer weather.<br>
+                                    BSUIR student<br>
+                        </div>
+                    </div>
+                    <div class="cv_element">
+                        <h2>Contacts:</h2>
+                        <div class="cv_element_content">
+                            <ul>
+                                <li>Mail: volotji@gmail.com</li>
+                                <li>Telegram: @tsds4</li>
+                                <li>Github: <a class="link_my_git" href="https://github.com/tjgtll">tjgtll</a></li>
+                                <li>City: Belarus / Maladzyechna</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cv_element">
+                        <h2>Skills</h2>
+                        <div class="cv_element_content">
+                            <ul>
+                                <li>HTML, CSS</li>
+                                <li>JavaScript</li>
+                                <li>Git, GitHub</li>
+                                <li>PL-SQL,T-SQL</li>
+                                <li>C#, LINQ, Eninty Framework, ASP.NET</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cv_element">
+                        <h2>Сode</h2>
+                        <div class="cv_element_content">
+<pre>    
+private static int[] NaiveStringSearch(string text, 
+               string pattern, bool overlap)
+{
+    int[] result = Array.Empty<int>();
+    for (int i = 0; i < text.Length - pattern.Length + 1; i++)
+    {
+        var a = text[i.. (i + pattern.Length)];
+        if (a == pattern)
+        {
+            result = AddElementToArray(result, i + 1);
+            if (!overlap)
+            {
+                i += pattern.Length - 1;
+            }
+        }
+    }
+    return result;
+}
+</pre> 
+                    </div>
+                    </div>
+                    <div class="cv_element">
+                        <h2>Projects</h2>
+                        <div class="cv_element_content">
+                            <ul>
+                                <li><a href="https://github.com/tjgtll/calc-test">Calc-test (JS)</a></li>
+                                <li><a href="https://github.com/tjgtll/AlfaBank-Test">Alfa-Bank-test (WPF C#)</a></li> 
+                                <li><a href="https://github.com/tjgtll/Test-Texode">Test-Texode (ASP.CORE API + WPF C#)</a></li> 
+                                <li><a href=" https://github.com/tjgtll/GameClame">Tetris (WPF C#)</a></li> 
+                               
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cv_element">
+                        <h2>Education</h2>
+                        <div class="cv_element_content">
+                            <ul>
+                                <li>2021-2025 (present)<br>BSc, Information technology software;
+                                <br><b>Belarusian State University of Informatics and Radioelectronics (Minsk)</b></li>
+                                <li>2017-2021<br>Secondary special education, Information technology software; 
+                                <br><b>Molodechno Trade-Economic College of Belcoopsoyuz (Maladzyechna)</b></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
             </div>
         </main>
         <footer>
