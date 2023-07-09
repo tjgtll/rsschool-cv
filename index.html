@@ -15,12 +15,12 @@
                     </a>
                     <nav>
                         <ul class="nav_ul">
-                            <li><a class="nav_a" href="#">About me</a></li>
-                            <li><a class="nav_a" href="#">Contacts</a></li>
-                            <li><a class="nav_a" href="#">Skills</a></li>
-                            <li><a class="nav_a" href="#">Сode</a></li>
-                            <li><a class="nav_a" href="#">Projects</a></li>
-                            <li><a class="nav_a nav_a_last" href="#">Education</a></li>
+                            <li><a class="nav_a" href="#about">About me</a></li>
+                            <li><a class="nav_a" href="#contacts">Contacts</a></li>
+                            <li><a class="nav_a" href="#skills">Skills</a></li>
+                            <li><a class="nav_a" href="#code">Сode</a></li>
+                            <li><a class="nav_a" href="#projects">Projects</a></li>
+                            <li><a class="nav_a" href="#education">Education</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -38,14 +38,14 @@
                 </section>
                 <section class="second">
                     <div class="cv_element">
-                        <h2>About me</h2>
+                        <a name="about"></a><h2 >About me</h2>
                         <div class="cv_element_content">                    
                                 <p>I love dark beer and summer weather.<br>
                                     BSUIR student<br>
                         </div>
                     </div>
                     <div class="cv_element">
-                        <h2>Contacts:</h2>
+                        <a name="contacts"></a><h2>Contacts:</h2>
                         <div class="cv_element_content">
                             <ul>
                                 <li>Mail: volotji@gmail.com</li>
@@ -56,7 +56,7 @@
                         </div>
                     </div>
                     <div class="cv_element">
-                        <h2>Skills</h2>
+                        <a name="skills"></a><h2>Skills</h2>
                         <div class="cv_element_content">
                             <ul>
                                 <li>HTML, CSS</li>
@@ -68,14 +68,14 @@
                         </div>
                     </div>
                     <div class="cv_element">
-                        <h2>Сode</h2>
+                        <a name="code"></a><h2>Сode</h2>
                         <div class="cv_element_content">
 <pre>    
 private static int[] NaiveStringSearch(string text, 
                string pattern, bool overlap)
 {
-    int[] result = Array.Empty<int>();
-    for (int i = 0; i < text.Length - pattern.Length + 1; i++)
+    int[] result = Array.Empty&lt;int&gt;();
+    for (int i = 0; i &lt; text.Length - pattern.Length + 1; i++)
     {
         var a = text[i.. (i + pattern.Length)];
         if (a == pattern)
@@ -93,7 +93,7 @@ private static int[] NaiveStringSearch(string text,
                     </div>
                     </div>
                     <div class="cv_element">
-                        <h2>Projects</h2>
+                        <a name="projects"></a><h2>Projects</h2>
                         <div class="cv_element_content">
                             <ul>
                                 <li><a href="https://github.com/tjgtll/calc-test">Calc-test (JS)</a></li>
@@ -105,7 +105,7 @@ private static int[] NaiveStringSearch(string text,
                         </div>
                     </div>
                     <div class="cv_element">
-                        <h2>Education</h2>
+                        <a name="education"></a><h2>Education</h2>
                         <div class="cv_element_content">
                             <ul>
                                 <li>2021-2025 (present)<br>BSc, Information technology software;
