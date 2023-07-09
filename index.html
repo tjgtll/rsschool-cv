@@ -74,8 +74,8 @@
 private static int[] NaiveStringSearch(string text, 
                string pattern, bool overlap)
 {
-    int[] result = Array.Empty<int>();
-    for (int i = 0; i < text.Length - pattern.Length + 1; i++)
+    int[] result = Array.Empty&lt;int&gt;();
+    for (int i = 0; i &lt; text.Length - pattern.Length + 1; i++)
     {
         var a = text[i.. (i + pattern.Length)];
         if (a == pattern)
